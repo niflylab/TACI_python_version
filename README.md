@@ -21,24 +21,31 @@ TACI_Python_version is a python-based 3D calcium imaging analysis pipeline used 
 
 ---
 
-## Installation and python testing
+## Installation and Python Testing
 
 1. Clone or download this repository.
-2. Create a python virtrual environment.
+2. Create a Python virtual environment.
 3. Install dependencies:
+
    ```bash
    python -m pip install --upgrade pip
-   python -m pip install -r requirements.txt
-4. Test scripts usging demo data
+   ```
    ```bash
-   python .\CIAanalysis_120min.py -i path/demo_analysis --merge --cell_type DOWC
-   python .\CITbind_dynamic.py -i path/demo_cbind -n 2
-
+   python -m pip install -r requirements.txt
+   ```
+4. Test scripts using demo data:
+   ```bash
+   python CIAanalysis_120min.py -i path/demo_analysis --merge --cell_type DOWC
+   ```
+   ```bash
+   python CITbind_dynamic.py -i path/demo_cbind -n 2
+   ```
+   
 ## Description 
 These python scripts allows batch processing and analysis of calcium imaging datasets collected from Drosophila larvae or other small model systems. 
 The pipline has three main stages:
-1. Fluorescence extraction using TrackMate in ImageJ<br>
-   insert the user manual for the steps in Trackmate here!
+1. Fluorescence Extraction (via TrackMate in ImageJ)<br>
+(Insert user manual here for steps in ImageJ TrackMate output generation.)<br>
 2. Primary Analysis (CIAnalysis_120min.py)<br>
    This is the main script for the processing individual calcium imaging datasets.<br>
    It automatially: 
