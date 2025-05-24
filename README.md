@@ -1,11 +1,12 @@
 # TACI_python_version
 
-TACI_Python_version is a python-based 3D calcium imaging analysis pipeline used in drosophila.
+This repository contains python codes and data analysis pipelines for 3D calcium imaging analysis on thermosensory neurons in drosophila.
 
 ---
 
 ## Table of Contents
-
+- [Project Overview](#Project-Overview)
+- [Data](#Data)
 - [Installation](#installation)
 - [Description](#description)
 - [File Overview](#file-overview)
@@ -20,6 +21,10 @@ TACI_Python_version is a python-based 3D calcium imaging analysis pipeline used 
 - [Contact](#contact)
 
 ---
+
+## Projext Overview
+
+
 
 ## Installation and python testing
 
